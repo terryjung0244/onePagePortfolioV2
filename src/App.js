@@ -10,19 +10,19 @@ import './../src/App.css'
 const App = () => {
   return (
     <div>
-      <div>
+      <div id='Home'>
         <Home/>
       </div>
-      <div>
+      <div id='About'>
         <About/>
       </div>
-      <div>
+      <div id='Skill'>
         <Skill/>
       </div>
-      <div>
+      <div id='Project'>
         <Project/>
       </div>
-      <div>
+      <div id='Contact'>
         <Contact/>
       </div>
       <div>

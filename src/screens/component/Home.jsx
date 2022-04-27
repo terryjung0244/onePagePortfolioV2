@@ -3,7 +3,7 @@ import './../Style/home.css'
 
 const Home = () => {
   return (
-    <div>
+    <div className='homeMainCon'>
       Home
     </div>
   )

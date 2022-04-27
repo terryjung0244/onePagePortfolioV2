@@ -12,11 +12,13 @@ const NavBar = () => {
       setScrollNav('Home');
     } else if (window.scrollY >= 701 && window.scrollY < 1400) {
       setScrollNav('About');
-    } else if (window.scrollY > 2400) {
+    } else if (window.scrollY >= 1500 && window.scrollY < 2300) {
       setScrollNav('Skills');
-    } else if (window.scrollY) > 3100 {
+    } else if (window.scrollY >= 2310 && window.scrollY < 3100) {
       setScrollNav('Projects');
-    } else if (window.scrollY)
+    } else if (window.scrollY >= 3130 && window.scroll < 3560) {
+      setScrollNav('Contact')
+    }
   }
 
 

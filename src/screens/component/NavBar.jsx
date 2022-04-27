@@ -21,15 +21,27 @@ const NavBar = () => {
     }
   }
 
+  useEffect(() => {
+    window.addEventListener('scroll', controlDirection);
+    return () => {
+      window.removeEventListener('scroll', controlDirection)
+    }
+  }, [])
+
+  window.addEventListener('scroll',(event) => {
+    console.log('Scrolling...');
+});
 
   return (
     <div>
-      <div className='navBarCon'>
+      <div className='navBarMainCon'>
         {navBarList.map((navBar,index) => {
           return (
-            <div className='navBarParentCon' style={{}} key={navBar}>
+            <div className='navBarSubCon' style={{
+              // background: (navBar === scrollNav) ? '#333' : 'white', 
+            }} key={navBar}>
 
-              <a className='navBarEachChildCon' style={{}} href={`#${navBar}`} alt='navBarList'>
+              <a className='navBarEachCon' style={{}} href={`#${navBar}`} alt='navBarList'>
                 {navBar}
               </a>
               

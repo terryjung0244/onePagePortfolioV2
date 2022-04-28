@@ -15,7 +15,7 @@ const Home = () => {
         <div className='homeProjectCon'>
           View Project
         </div>
-      </div>
+      </div> 
       <div className='homeBgPictureMainCon'>
         <img className='homeBgSubCon' src='img/homeBg.jpg' alt='homeBgError.jpg'/>
       </div>

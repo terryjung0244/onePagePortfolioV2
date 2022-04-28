@@ -14,29 +14,40 @@
   border: 1px solid yellow;
   width: 100%;
   height: 100%;
-  padding: 500px 200px;
+  padding: 480px 200px;
 }
 
 .homeMyNameCon {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   color: whitesmoke;
-  font-size: 3rem;
+  font-size: 4.5rem;
+  padding-left: 300px;
 }
 
 .homeJobTitleCon {          
-  border: 1px solid red;  
+  /* border: 1px solid red;   */
   color: whitesmoke;
   font-size: 3rem;
+  padding: 20px 0px 20px 300px;
 }
 
 .homeProjectCon {
-  border: 1px solid red;
+  border: 2px solid white;
+  border-radius: 10px;
   color: whitesmoke;
-  font-size: 3rem;
+  font-size: 2rem;
+  width: 300px;
+  height: 70px;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 100px 0 0 300px;
+  cursor: pointer;
+  transition: 1.5s;
 }
 
-.homeBgPictureMainCon {
-
+.homeProjectCon:hover {
+  background-color: white;
+  color: black;
 }
 
 .homeBgSubCon {
@@ -48,3 +59,5 @@
   z-index: -1;
   top: 0;
 }
+
+

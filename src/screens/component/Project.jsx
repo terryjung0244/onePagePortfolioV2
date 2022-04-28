@@ -4,7 +4,7 @@ import './../Style/project.css'
 const Project = () => {
   return (
     <div>
-      Project
+      P
     </div>
   )
 }

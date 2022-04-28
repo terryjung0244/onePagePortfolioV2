@@ -4,7 +4,7 @@ import './../Style/skill.css'
 const Skill = () => {
   return (
     <div>
-      Skill
+      S
     </div>
   )
 }

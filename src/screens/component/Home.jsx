@@ -5,7 +5,6 @@ import './../Style/home.css'
 const Home = () => {
   return (
     <div className='homeMainCon'>
-      <div className='homeSubCon'>
         <div className='homeMyNameCon'>
           I'm Terry
         </div>
@@ -15,9 +14,9 @@ const Home = () => {
         <div className='homeProjectCon'>
           View Project
         </div>
-      </div> 
-      <div className='homeBgPictureMainCon'>
-        <img className='homeBgSubCon' src='img/homeBg.jpg' alt='homeBgError.jpg'/>
+      
+      <div className='homeBgMainCon'> 
+        <img className='homeBgCon' src='img/homeBg.jpg' alt='homeBgError.jpg'/>
       </div>
     </div>
   )

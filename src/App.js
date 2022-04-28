@@ -9,7 +9,7 @@ import './../src/App.css'
 
 const App = () => {
   return (
-    <div>
+    <div className='AppCon'>
       <div id='Home'>
         <Home/>
       </div>

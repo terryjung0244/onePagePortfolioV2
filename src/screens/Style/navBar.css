@@ -1,5 +1,29 @@
-.navBarContainer {
-  border: 1px solid red;
-  width: 130px;
+.navBarMainCon {
   position: fixed;
+  color: white;
+  width: 130px;
+  z-index: 3;
+  top: 130px;
+  right: -1%;
+}
+
+.navBarSubCon {
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #a3a3a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 1px;
+
+}
+
+.navBarEachCon {
+  text-decoration: none;
+  color: black;
+  border: 1px solid blue;
+  font-size: 13px;
+  padding-right: 10px;
 }

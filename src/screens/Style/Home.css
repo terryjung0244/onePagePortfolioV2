@@ -1,5 +1,46 @@
-/* .homeMainCon {
-  border: 1px soild red;
-  width: 100%;
-  height: 3000px;
+/* .homeMyNameCon .homeJobTitleCon .homeProjectCon {
+  color: whitesmoke;
 } */
+
+.homeMainCon {
+  width: 100%;
+  height: 1200px;
+  border: 1px solid blue;
+  position: relative;
+}
+
+.homeSubCon {
+  border: 1px solid yellow;
+}
+
+.homeMyNameCon {
+  border: 1px solid red;
+  color: whitesmoke;
+  
+}
+
+.homeJobTitleCon {
+  border: 1px solid red;  
+  color: whitesmoke;
+
+}
+
+.homeProjectCon {
+  border: 1px solid red;
+  color: whitesmoke;
+  
+}
+
+.homeBgPictureMainCon {
+
+}
+
+.homeBgSubCon {
+  border: 1px solid green;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}

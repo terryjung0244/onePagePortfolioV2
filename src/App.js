@@ -26,7 +26,7 @@ const App = () => {
         <Contact/>
       </div>
       <div>
-        {/* <NavBar/> */}
+        <NavBar/>
       </div>
     </div>
   )

@@ -1,38 +1,63 @@
+* {
+  color: red;
+}
+
 .homeMainCon {
-  border: 1px solid green;
+  border: 1px solid red;
   width: 100%;
-  height: 1200px;
+  /* height: 1200px; */
   position: relative;
+}
+
+.homeSubCon {
+  padding: 450px 0 0 400px;
+  
 }
 
 .homeMyNameCon {
   border: 1px solid red;
-  width: 100%;
-  height: 100px;
+  font-size: 4rem;
+  letter-spacing: 4px;
 }
 
 .homeJobTitleCon {
-  border: 1px solid yellow;
-  width: 100%;
-  height: 100px;
+  border: 1px solid red;
+  font-size: 2.8rem;
+  margin: 40px 0 100px 0;
 }
 
-.homeProjectCon {
-  border: 1px solid blue;
-  width: 100%;
-  height: 100px;
+.homeProjectSubCon {
+  border: 1px solid floralwhite;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  /* width: 230px; */
+  /* height: 65px; */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  position: absolute;
+  top: 60%;
+  left: 50%
 }
 
-
-.homeBgMainCon {
-
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .homeProjectSubCon {
+    color: blue;
+    width: 100%;
+    left: 0;
+    margin: 0 5px;
+    
+  }
 }
 
 .homeBgCon {
-  object-fit: cover;
   width: 100%;
   height: 100%;
-  position: absolute;
+  object-fit: cover;
   z-index: -1;
+  /* position: absolute;
   top: 0;
+  left: 0; */
 }

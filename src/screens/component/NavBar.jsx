@@ -28,9 +28,7 @@ const NavBar = () => {
     }
   }, [])
 
-  window.addEventListener('scroll',(event) => {
-    console.log('Scrolling...');
-});
+
 
   return (
     <div>

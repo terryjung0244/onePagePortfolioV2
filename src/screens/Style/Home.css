@@ -14,7 +14,7 @@
 .homeMyNameCon {
   color: floralwhite;
   position: absolute;
-  top: 46%;
+  top: 44%;
   left: 25%;
   font-size: 4rem;
   letter-spacing: 4px;
@@ -24,38 +24,40 @@
   color: floralwhite;
   position: absolute;
   font-size: 2.7rem;
-  bottom: 40%;
+  bottom: 42%;
   left: 25%;
 }
 
 .homeProjectCon {
   color: floralwhite;
   position: absolute;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   top: 70%;
   left: 25%;
   border: 1.5px solid floralwhite;
-  width: 23%;
+  border-radius: 10px;
+  width: 21%;
   height: 5%;
-  text-align: 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .homeMyNameCon {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  
 }
 
 
-/*backgroundImage: `url(${bgImage})`*/
-/* 
-style={{width: '100%', height: '100vh', backgroundSize: 'contain', backgroundRepeat: 'no-repeat', display: 'flex', justifyContent: 'center', alignItems: 'flex-start', flexDirection: 'column', position: 'relative'}} */
-
-/* <div style={{border: '2px solid red', position: 'absolute', top: '40%', left: '50%'}}>
-          I'm Terry
-        </div>
-
-        <div style={{border: '2px solid red', position: 'absolute', top: '50%', left: '50%'}}>
-          A Front-end Developer
-        </div>
-
-        <div className='homeProjectSubCon' style={{}}>
-          View Project
-        </div> */
 
 
 /* green socks 사용해서 글씨 왼쪽에서 오른쪽으로 가는거 구현해보기 */

@@ -7,21 +7,18 @@ const Home = () => {
     <div className='homeMainCon' style={{ backgroundImage: `url(${bgImage})`}}>
       <div>
 
-        <div>
+        <div className='homeMyNameCon'>
           I'm Terry
         </div>
 
-        <div>
+        <div className='homeTitleCon'>
           A Front-end Developer
         </div>
 
-        <div>
+        <div className='homeProjectCon'>
           View Project
         </div>
 
-        <div>
-          {/* <img src={bgImage} alt='bgImageError.png' /> */}
-        </div>
       </div>
     </div>
   )

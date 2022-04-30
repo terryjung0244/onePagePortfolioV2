@@ -44,8 +44,25 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 600px) {
+  .homeMainCon {
+    height: 800px;
+  }
+
   .homeMyNameCon {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    left: 10%;
+  }
+
+  .homeTitleCon {
+    font-size: 1.6rem;
+    bottom: 40%;
+    left: 10%;
+  }
+  .homeProjectCon {
+    font-size: 1.2rem;
+    width: 98%;
+    left: 1%;
+    
   }
 }
 

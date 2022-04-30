@@ -5,7 +5,7 @@ import bgImage from './../../resources/image/homeBg.jpg';
 const Home = () => {
   return (
     <div className='homeMainCon' style={{ backgroundImage: `url(${bgImage})`}}>
-      <div>
+      
 
         <div className='homeMyNameCon'>
           I'm Terry
@@ -19,7 +19,7 @@ const Home = () => {
           View Project
         </div>
 
-      </div>
+      
     </div>
   )
 }

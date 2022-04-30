@@ -3,22 +3,41 @@
   height: 1200px;
   border: 1px solid blue;
   background-size: 100%;
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-color: black;
+  background-position-y: top;
+  position: relative;
   
 }
 
 .homeMyNameCon {
   color: floralwhite;
+  position: absolute;
+  top: 46%;
+  left: 25%;
+  font-size: 4rem;
+  letter-spacing: 4px;
 }
 
 .homeTitleCon {
   color: floralwhite;
+  position: absolute;
+  font-size: 2.7rem;
+  bottom: 40%;
+  left: 25%;
 }
 
 .homeProjectCon {
   color: floralwhite;
+  position: absolute;
+  font-size: 1.8rem;
+  top: 70%;
+  left: 25%;
+  border: 1.5px solid floralwhite;
+  width: 23%;
+  height: 5%;
+  text-align: 
 }
 
 
@@ -37,3 +56,6 @@ style={{width: '100%', height: '100vh', backgroundSize: 'contain', backgroundRep
         <div className='homeProjectSubCon' style={{}}>
           View Project
         </div> */
+
+
+/* green socks 사용해서 글씨 왼쪽에서 오른쪽으로 가는거 구현해보기 */

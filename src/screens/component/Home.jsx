@@ -19,6 +19,9 @@ const Home = () => {
           View Project
         </div>
 
+        <div>
+          {/* <img src={bgImage} alt='bgImageError.png' /> */}
+        </div>
       </div>
     </div>
   )

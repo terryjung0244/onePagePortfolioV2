@@ -6,6 +6,9 @@ const About = () => {
   return (
     <div className='aboutMainCon'>
       <div className='aboutLeftSubCon'>
+        <img className='backGroundPictureCon' src={bgImage} alt='bgImageError.jpg'/>
+      </div>
+      <div className='aboutSecondSubCon'>
         <div className='aboutTitleCon'>
           About Me
         </div>
@@ -15,10 +18,6 @@ const About = () => {
         <div className='aboutTalkCon'>
           Let's Talk
         </div>
-      </div>
-      <div className='aboutSecondSubCon'>
-        asdasds
-           {/* <img className='backGroundPictureCon' src={bgImage} alt='bgImageError.jpg'/> */}
       </div>
     </div>
   )

@@ -3,21 +3,26 @@
   height: 1200px;
   border: 1px solid red;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .aboutLeftSubCon {
-  width: 600px;
-  height: 200px;
+  width: 45%;
+  height: 100%;
   border: 1px solid blue;
+  background-color: black;
 }
 
 .aboutSecondSubCon {
-  width: 300px;
-  height: 600px;
-  border: 2px solid green;
+  width: 55%;
+  height: 100%;
+  border: 1px solid green;
+}
+
+.backGroundPictureCon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media screen (min-width: 0px) and (max-width: 600px) {

@@ -1,4 +1,36 @@
 .skillMainCon {
   width: 100%;
   height: 1200px;
+  border: 1px solid red;
+}
+
+.skillTopCon {
+  width: 100%;
+  height: 45%;
+  border: 1px solid blue;
+  position: relative;
+}
+
+.skillTitleCon {
+  width: 40%;
+  height: 20%;
+  border: 1px solid green;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+}
+
+.skillDescCon {
+  width: 70%;
+  height: 50%;
+  border: 1px solid green;
+  position: absolute;
+  left: 15%;
+  top: 45%;
+}
+
+.skillBottomCon {
+  width: 100%;
+  height: 55%;
+  border: 1px solid red;
 }

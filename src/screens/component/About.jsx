@@ -1,14 +1,16 @@
 import React from 'react'
 import './../Style/about.css'
 import bgImage from './../../resources/image/aboutMe.jpg'
+import Grid from '@mui/material/Grid';
 
 const About = () => {
   return (
-    <div className='aboutMainCon'>
-      <div className='aboutLeftSubCon'>
+    <Grid container className='aboutMainCon'>
+      
+      <Grid xs={12} md={6} item className='aboutLeftSubCon'>
         <img className='backGroundPictureCon' src={bgImage} alt='bgImageError.jpg'/>
-      </div>
-      <div className='aboutSecondSubCon'>
+      </Grid>
+      <Grid xs={12} md={6} item className='aboutSecondSubCon'>
         <div className='aboutTitleCon'>
           About Me
         </div>
@@ -18,8 +20,9 @@ const About = () => {
         <div className='aboutTalkCon'>
           Let's Talk
         </div>
-      </div>
-    </div>
+      </Grid>
+      
+    </Grid>
   )
 }
 

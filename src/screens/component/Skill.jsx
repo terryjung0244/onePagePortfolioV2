@@ -3,7 +3,7 @@ import './../Style/skill.css'
 
 const Skill = () => {
   return (
-    <div>
+    <div className='skillMainCon'>
       S
     </div>
   )

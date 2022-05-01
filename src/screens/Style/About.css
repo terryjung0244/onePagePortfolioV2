@@ -1,23 +1,24 @@
 .aboutMainCon {
   width: 100%;
   height: 1200px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   background-color: floralwhite;
+  position: relative;
 }
 
 .aboutLeftSubCon {
   width: 45%;
   height: 100%;
-  border: 1px solid blue;
-  background-color: black;
+  /* border: 1px solid blue; */
+  background-color: white;
 }
 
 .aboutSecondSubCon {
   width: 55%;
   height: 100%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   position: relative;
 }
 
@@ -29,24 +30,24 @@
 
 .aboutTitleCon, .aboutDescCon, .aboutTalkCon {
   position: absolute;
-  left: 15%;
+  left: 10%;
 }
 
 .aboutTitleCon {
-  font-size: 3rem;
+  font-size: 2.2rem;
   top: 25%;
 }
 
 .aboutDescCon {
   font-size: 1.4rem;
   top: 35%;
-  width: 500px;
-  height: 350px;
+  width: 70%;
+  height: 300px;
   /* border: 1px solid red; */
 }
 
 .aboutTalkCon {
-  width: 200px;
+  width: 40%;
   height: 60px;
   border: 1.5px solid gray;
   border-radius: 7px;
@@ -58,15 +59,68 @@
 }
 
 
-@media screen (min-width: 0px) and (max-width: 600px) {
-
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .aboutSecondSubCon {
+    position: absolute;
+    width: 100%;
+  }
+  .aboutTitleCon {
+    color: floralwhite;
+    top: 27%;
+  }
+  .aboutDescCon {
+    color: floralwhite;
+    font-size: 1rem;
+    height: 350px;
+  }
+  .aboutTalkCon {
+    width: 80%;
+    border: 1.5px solid floralwhite;
+    border-radius: 7px;
+    color: floralwhite;
+  }
 }
 
-@media screen (min-width: 601px) and (max-width: 900px) {
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .aboutTitleCon, .aboutDescCon, .aboutTalkCon {
+    position: absolute;
+    left: 0;
+    color: floralwhite;
+  }
 
+  .aboutTitleCon {
+    font-size: 1.9rem;
+    top: 27%;
+  }
+
+  .aboutDescCon {
+    font-size: 1rem;
+    width: 100%;
+    height: 400px;
+  }
+
+  .aboutTalkCon {
+    width: 100%;
+    border: 1.5px solid floralwhite;
+    border-radius: 7px;
+  }
+
+  .aboutSecondSubCon {
+    position: absolute;
+    width: 80%;
+  }
 }
 
-@media screen (min-width: 901px) and (max-width: 1200px) {
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .aboutTitleCon {
+    top: 27%;
+  }
 
+  .aboutTitleCon {
+    font-size: 1.9rem;
+  }
+  .aboutDescCon {
+    font-size: 1rem;
+  }
 }
 

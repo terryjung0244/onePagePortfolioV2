@@ -13,15 +13,20 @@ const Skill = () => {
         </div>
       </div>
       <div className='skillBottomCon'>
-        <div className='skillDevCon'>
-          Development Skills
+        <div className='skillLeftBottomCon'>
+          <div className='skillDevCon'>
+            Development Skills
+          </div>
         </div>
-        <div className='skillProjectCon'>
-          Project Skills
+        <div className='skillRightBottomCon'>
+          <div className='skillProjectCon'>
+            Project Skills
+          </div>
+          <div className='skillPersonalCon'>
+            Personal Skills
+          </div>
         </div>
-        <div className='skillPersonalCon'>
-          Personal Skills
-        </div>
+
       </div>
     </div>
   )

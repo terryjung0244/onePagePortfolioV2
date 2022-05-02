@@ -1,9 +1,11 @@
 import React from 'react'
 import './../Style/skill.css'
+import bgImage from './../../resources/image/skill.jpg'
 
 const Skill = () => {
   return (
-    <div className='skillMainCon'>
+    <div className='skillMainCon' style={{ backgroundImage: `url(${bgImage})`}}>
+      
       <div className='skillTopCon'>
         <div className='skillTitleCon'>
           SkillSet
@@ -28,6 +30,7 @@ const Skill = () => {
         </div>
 
       </div>
+      
     </div>
   )
 }

@@ -1,0 +1,29 @@
+/* .contact_contaner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  
+}
+@media screen and (max-width: 500px) {
+  .contact_contaner {
+    grid-template-columns: 1fr, 1fr, 300px, 1fr;
+    animation: tempAnimation;
+
+
+  }
+}
+
+@keyframes tempAnimation {
+  0% {
+    width: 0;
+  } 
+  100% {
+    width: 100px;
+  }
+} */
+
+    /* -webkit- */
+    /* -ms- */
+    /* -mo- */
+
+    
